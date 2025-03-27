@@ -8,13 +8,33 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'My Home',
   description: 'Comfortable spaces waiting for you.',
-  // add image
   openGraph: {
+    title: 'My Home - Comfortable Living Spaces',
+    description:
+      'Explore our comfortable and well-equipped living spaces, perfect for your stay.',
     images: [
       {
         url: '/images/living/livingRoom1.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'Main Living Room',
+      },
+      {
+        url: '/images/living/livingRoom2.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'Family Living Area',
+      },
+      {
+        url: '/images/living/livingRoom3.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'TV Room',
       },
     ],
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'My Home',
   },
 }
 
