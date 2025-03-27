@@ -2,7 +2,8 @@
     "home": {
         "welcome": "Welcome to My Home",
         "subtitle": "Comfortable spaces waiting for you",
-        "contact": "Contact"
+        "contact": "Contact",
+        "address": "Address"
     },
     "spaces": {
         "bedrooms": {

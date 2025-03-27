@@ -14,6 +14,7 @@ export interface Dictionary {
     welcome: string
     subtitle: string
     contact: string
+    address: string
   }
   spaces: {
     bedrooms: {

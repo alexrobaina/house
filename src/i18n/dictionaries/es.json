@@ -2,7 +2,8 @@
     "home": {
         "welcome": "Bienvenido a Mi Casa",
         "subtitle": "Lugar con buena onda y comodidad",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "address": "Dirección"
     },
     "spaces": {
         "patio": {

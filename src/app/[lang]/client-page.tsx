@@ -6,7 +6,7 @@ import ImageGallery from '@/components/ImageGallery'
 import ImageModal from '@/components/ImageModal'
 import Footer from '@/components/Footer'
 import { Space, Dictionary } from '@/types'
-
+import Image from 'next/image'
 interface ClientPageProps {
   dict: Dictionary
   spaces: Space[]
@@ -84,6 +84,19 @@ export default function ClientPage({ dict, spaces }: ClientPageProps) {
             />
           )}
         </AnimatePresence>
+
+        <div className="mt-12">
+          <h2 className="text-3xl text-gray-800 font-bold mb-4">
+            {dict.home.address}
+          </h2>
+          <Image
+            alt="Map"
+            width={1000}
+            height={1000}
+            src="/images/map.png"
+            className="w-full h-auto"
+          />
+        </div>
       </main>
 
       <Footer rights={dict.footer.rights} />
