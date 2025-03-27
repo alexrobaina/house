@@ -52,7 +52,7 @@ export default function ClientPage({ dict, spaces }: ClientPageProps) {
       <main className="container mx-auto px-4 py-12">
         <div className="mt-4 mb-12">
           <a
-            href="https://wa.me/573178283000"
+            href="https://wa.me/+5491138997032"
             className="inline-block px-6 py-3 bg-teal-500 text-white font-bold rounded-full hover:bg-teal-600 transition-colors duration-300"
           >
             {dict.home.contact}
