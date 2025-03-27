@@ -8,6 +8,14 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'My Home',
   description: 'Comfortable spaces waiting for you.',
+  // add image
+  openGraph: {
+    images: [
+      {
+        url: '/images/living/livingRoom1.jpeg',
+      },
+    ],
+  },
 }
 
 export default async function RootLayout({
