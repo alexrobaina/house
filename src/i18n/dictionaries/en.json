@@ -1,0 +1,52 @@
+{
+    "home": {
+        "welcome": "Welcome to My Home",
+        "subtitle": "Comfortable spaces waiting for you",
+        "contact": "Contact"
+    },
+    "spaces": {
+        "bedrooms": {
+            "title": "Bedrooms",
+            "description": "Explore our comfortable bedrooms",
+            "items": {
+                "main": "1 person room"
+            }
+        },
+        "bathrooms": {
+            "title": "Bathrooms",
+            "description": "Modern and clean bathrooms",
+            "items": {
+                "main": "Main Bathroom",
+                "guest": "Guest Bathroom",
+                "auxiliary": "Auxiliary Bathroom"
+            }
+        },
+        "kitchen": {
+            "title": "Kitchen",
+            "description": "Fully equipped kitchen space",
+            "items": {
+                "main": "Main Kitchen",
+                "dining": "Dining Area"
+            }
+        },
+        "livingRoom": {
+            "title": "Living Room",
+            "description": "Spacious and comfortable living areas",
+            "items": {
+                "main": "Main Living Room",
+                "family": "Family Room",
+                "tv": "TV Room"
+            }
+        },
+        "patio": {
+            "title": "Patio",
+            "description": "Spacious outdoor living areas",
+            "items": {
+                "main": "Main Patio"
+            }
+        }
+    },
+    "footer": {
+        "rights": "All rights reserved"
+    }
+}

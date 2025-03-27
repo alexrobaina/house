@@ -1,0 +1,48 @@
+{
+    "home": {
+        "welcome": "Bienvenido a Mi Casa",
+        "subtitle": "Lugar con buena onda y comodidad",
+        "contact": "Contacto"
+    },
+    "spaces": {
+        "patio": {
+            "title": "Patio",
+            "description": "Área exterior con churrasquera y barras para calistenia",
+            "items": {
+                "main": "Patio"
+            }
+        },
+        "bedrooms": {
+            "title": "Habitaciones disponibles",
+            "description": "Explora nuestras habitaciones",
+            "items": {
+                "main": "Habitación 1 persona"
+            }
+        },
+        "bathrooms": {
+            "title": "Baños",
+            "description": "Excelente baño con ducha y bien agua caliente",
+            "items": {
+                "main": "Baño Principal"
+            }
+        },
+        "kitchen": {
+            "title": "Cocina",
+            "description": "Cocina totalmente equipada",
+            "items": {
+                "main": "Cocina Principal",
+                "dining": "Área de Comedor"
+            }
+        },
+        "livingRoom": {
+            "title": "Sala de Estar",
+            "description": "Áreas de estar espaciosas y cómodas",
+            "items": {
+                "main": "Sala Principal"
+            }
+        }
+    },
+    "footer": {
+        "rights": "Todos los derechos reservados"
+    }
+}
