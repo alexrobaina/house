@@ -10,15 +10,18 @@ export const metadata: Metadata = {
   description: 'Comfortable spaces waiting for you.',
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params,
 }: {
   children: React.ReactNode
-  params?: { lang?: string }
+  params?: Promise<{ lang?: string }>
 }) {
+  const resolvedParams = await params
   const lang =
-    params?.lang && isValidLocale(params.lang) ? params.lang : defaultLocale
+    resolvedParams?.lang && isValidLocale(resolvedParams.lang)
+      ? resolvedParams.lang
+      : defaultLocale
 
   return (
     <html lang={lang} className={inter.className}>

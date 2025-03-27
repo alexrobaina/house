@@ -8,13 +8,12 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ lang: locale }))
 }
 
-interface PageProps {
-  params: {
-    lang: string
-  }
-}
-
-export default async function Page({ params: { lang } }: PageProps) {
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ lang: string }>
+}) {
+  const { lang } = await params
   const locale = lang as ValidLocale
   const dict = await getDictionary(locale || defaultLocale)
 
