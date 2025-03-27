@@ -14,19 +14,19 @@ export const metadata: Metadata = {
       'Explore our comfortable and well-equipped living spaces, perfect for your stay.',
     images: [
       {
-        url: '/images/living/livingRoom1.jpeg',
+        url: 'https://house-olive.vercel.app/images/living/livingRoom1.jpeg',
         width: 1200,
         height: 630,
         alt: 'Main Living Room',
       },
       {
-        url: '/images/living/livingRoom2.jpeg',
+        url: 'https://house-olive.vercel.app/images/living/livingRoom2.jpeg',
         width: 1200,
         height: 630,
         alt: 'Family Living Area',
       },
       {
-        url: '/images/living/livingRoom3.jpeg',
+        url: 'https://house-olive.vercel.app/images/living/livingRoom3.jpeg',
         width: 1200,
         height: 630,
         alt: 'TV Room',
@@ -35,6 +35,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
     siteName: 'My Home',
+    url: 'https://house-olive.vercel.app',
   },
 }
 
